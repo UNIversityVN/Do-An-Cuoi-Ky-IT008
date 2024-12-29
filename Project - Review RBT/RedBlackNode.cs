@@ -1,52 +1,73 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Project___Review_RBT
+﻿using System.Drawing;
+using System;
+using System.Xml.Linq;
+public class RedBlackNode
 {
-    public enum NodeColor
+    public int Value { get; set; } // Giá trị của nút
+    public RedBlackNode Left { get; set; } // Con trái
+    public RedBlackNode Right { get; set; } // Con phải
+    public RedBlackNode Parent { get; set; } // Nút cha
+    public bool IsRed { get; set; } = true; // Trạng thái màu sắc (Đỏ/Đen)
+
+    // Thuộc tính cho giao diện đồ họa
+    public int X { get; set; }
+    public int Y { get; set; } = 100;
+    public int TargetX { get; set; }
+    public int TargetY { get; set; }
+
+    public RedBlackNode(int value)
     {
-        Red,Black
+        Value = value;
     }
 
-    public class RedBlackNode
+    public void Draw(Graphics g)
     {
-        public int Value { get; set; } 
-        public NodeColor Color { get; set; } 
-        public RedBlackNode? Parent { get; set; } 
-        public RedBlackNode? Left { get; set; } 
-        public RedBlackNode? Right { get; set; } 
-    
-        public RedBlackNode(int val)
+        Color fillColor = IsRed ? Color.Red : Color.Black;
+        // Vẽ hình elip làm nút
+        g.FillEllipse(new SolidBrush(fillColor), X - 20, Y - 20, 40, 40);
+        g.DrawEllipse(Pens.White, X - 20, Y - 20, 40,40);
+        string displayValue = Value.ToString();
+
+        // Bắt đầu với font kích thước lớn nhất có thể
+        Font font = new Font("Times New Roman", 10, FontStyle.Regular);
+        SizeF textSize = g.MeasureString(displayValue, font);
+
+        // Giảm kích thước font đến khi chuỗi vừa trong hình elip
+        while ((textSize.Width > 36 || textSize.Height > 36) && font.Size > 1)
         {
-            Value = val;
-            Color = NodeColor.Red;
-            Parent = null;
-            Left = null;
-            Right = null;
-        }
-        // Kiểm tra xem nút có phải là nút lá không
-        public bool IsLeaf()
-        {
-            return this.Left == null && this.Right == null;
+            font = new Font(font.FontFamily, font.Size - 0.5f, font.Style);
+            textSize = g.MeasureString(displayValue, font);
         }
 
-        // Kiểm tra xem nút có phải là con trái của cha nó không
-        public bool IsLeftChild()
-        {
-            return this.Parent != null && this == this.Parent.Left;
-        }
+        // Tính toán vị trí để chuỗi nằm chính giữa nút
+        float textX = X - textSize.Width / 2;
+        float textY = Y - textSize.Height / 2;
 
-        // Kiểm tra xem nút có phải là con phải của cha nó không
-        public bool IsRightChild()
-        {
-            return this.Parent != null && this == this.Parent.Right;
-        }
+        // Vẽ chuỗi vào hình elip
+        g.DrawString(displayValue, font, Brushes.White, textX, textY);
+    }
 
-        // Trả về giá trị đã định dạng (hiển thị 5 ký tự)
-        public string FormattedValue => Value.ToString("D5");
+    public void MoveTowardsTarget(int step)
+    {
+        int deltaX = TargetX - X;
+        int deltaY = TargetY - Y;
+
+        int distance = Math.Max(Math.Abs(deltaX), Math.Abs(deltaY));
+
+        // Tính toán bước di chuyển dựa trên `step`
+        int stepX = (int)(step * (deltaX / (float)distance));
+        int stepY = (int)(step * (deltaY / (float)distance));
+
+        // Cập nhật vị trí nút từng bước
+        if (Math.Abs(deltaX) > step || Math.Abs(deltaY) > step)
+        {
+            X += stepX;
+            Y += stepY;
+        }
+        else
+        {
+            X = TargetX;
+            Y = TargetY;
+        }
     }
 }
-    

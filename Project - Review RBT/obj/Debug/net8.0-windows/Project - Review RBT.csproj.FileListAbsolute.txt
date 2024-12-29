@@ -3,12 +3,13 @@ D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\P
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\bin\Debug\net8.0-windows\Project - Review RBT.runtimeconfig.json
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\bin\Debug\net8.0-windows\Project - Review RBT.dll
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\bin\Debug\net8.0-windows\Project - Review RBT.pdb
-D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project___Review_RBT.Form1.resources
+D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project___Review_RBT.RedBlackForm.resources
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.csproj.GenerateResource.cache
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.GeneratedMSBuildEditorConfig.editorconfig
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.AssemblyInfoInputs.cache
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.AssemblyInfo.cs
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.csproj.CoreCompileInputs.cache
+D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.sourcelink.json
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.dll
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\refint\Project - Review RBT.dll
 D:\ĐỒ ÁN CUỐI KỲ IT008\Do-An-Cuoi-Ky-IT008\Mô Phỏng Cây Đỏ Đen\Project - Review RBT\obj\Debug\net8.0-windows\Project - Review RBT.pdb
