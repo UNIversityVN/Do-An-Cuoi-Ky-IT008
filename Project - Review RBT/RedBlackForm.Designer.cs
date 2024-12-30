@@ -80,6 +80,7 @@
             // 
             // panel_function
             // 
+            panel_function.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panel_function.BackColor = Color.FromArgb(192, 255, 192);
             panel_function.BorderStyle = BorderStyle.Fixed3D;
             panel_function.Controls.Add(button1);
@@ -108,19 +109,21 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.AutoSize = true;
-            label2.Location = new Point(881, 7);
+            label2.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(884, 8);
             label2.Name = "label2";
-            label2.Size = new Size(122, 20);
+            label2.Size = new Size(134, 21);
             label2.TabIndex = 8;
             label2.Text = "Animation speed";
             // 
             // button_insert
             // 
             button_insert.BackColor = Color.White;
-            button_insert.Location = new Point(4, 7);
+            button_insert.Location = new Point(9, 5);
             button_insert.Name = "button_insert";
-            button_insert.Size = new Size(64, 27);
+            button_insert.Size = new Size(77, 29);
             button_insert.TabIndex = 9;
             button_insert.Text = "Insert";
             button_insert.UseVisualStyleBackColor = false;
@@ -128,28 +131,29 @@
             // 
             // trackBar_speedanimation
             // 
+            trackBar_speedanimation.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             trackBar_speedanimation.AutoSize = false;
             trackBar_speedanimation.BackColor = Color.FromArgb(255, 255, 128);
-            trackBar_speedanimation.Location = new Point(1024, 3);
+            trackBar_speedanimation.Location = new Point(1022, 0);
             trackBar_speedanimation.Maximum = 500;
             trackBar_speedanimation.Minimum = 10;
             trackBar_speedanimation.Name = "trackBar_speedanimation";
-            trackBar_speedanimation.Size = new Size(206, 36);
+            trackBar_speedanimation.Size = new Size(206, 37);
             trackBar_speedanimation.TabIndex = 6;
             trackBar_speedanimation.TickFrequency = 20;
             trackBar_speedanimation.Value = 250;
             // 
             // textBox_insert
             // 
-            textBox_insert.Location = new Point(73, 7);
+            textBox_insert.Location = new Point(92, 6);
             textBox_insert.Name = "textBox_insert";
-            textBox_insert.Size = new Size(157, 27);
+            textBox_insert.Size = new Size(175, 27);
             textBox_insert.TabIndex = 6;
             // 
             // button_find
             // 
             button_find.BackColor = Color.White;
-            button_find.Location = new Point(236, 6);
+            button_find.Location = new Point(273, 6);
             button_find.Name = "button_find";
             button_find.Size = new Size(64, 27);
             button_find.TabIndex = 10;
@@ -159,15 +163,15 @@
             // 
             // textBox_find
             // 
-            textBox_find.Location = new Point(306, 6);
+            textBox_find.Location = new Point(343, 6);
             textBox_find.Name = "textBox_find";
-            textBox_find.Size = new Size(157, 27);
+            textBox_find.Size = new Size(175, 27);
             textBox_find.TabIndex = 8;
             // 
             // button_delete
             // 
             button_delete.BackColor = Color.White;
-            button_delete.Location = new Point(469, 6);
+            button_delete.Location = new Point(547, 6);
             button_delete.Name = "button_delete";
             button_delete.Size = new Size(62, 27);
             button_delete.TabIndex = 11;
@@ -177,13 +181,14 @@
             // 
             // textBox_delete
             // 
-            textBox_delete.Location = new Point(537, 6);
+            textBox_delete.Location = new Point(615, 6);
             textBox_delete.Name = "textBox_delete";
-            textBox_delete.Size = new Size(157, 27);
+            textBox_delete.Size = new Size(175, 27);
             textBox_delete.TabIndex = 7;
             // 
             // panel_main
             // 
+            panel_main.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panel_main.BorderStyle = BorderStyle.Fixed3D;
             panel_main.Controls.Add(Label_Explanation);
             panel_main.Location = new Point(1, 87);
@@ -197,9 +202,9 @@
             Label_Explanation.BackColor = SystemColors.Control;
             Label_Explanation.BorderStyle = BorderStyle.Fixed3D;
             Label_Explanation.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Label_Explanation.Location = new Point(-2, 0);
+            Label_Explanation.Location = new Point(3, 0);
             Label_Explanation.Name = "Label_Explanation";
-            Label_Explanation.Size = new Size(270, 80);
+            Label_Explanation.Size = new Size(265, 80);
             Label_Explanation.TabIndex = 0;
             Label_Explanation.Text = "Trạng thái của action";
             Label_Explanation.TextAlign = ContentAlignment.MiddleCenter;
@@ -233,6 +238,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(1235, 485);
             Controls.Add(panel_main);
             Controls.Add(panel_function);

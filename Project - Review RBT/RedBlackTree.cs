@@ -313,17 +313,17 @@ namespace Project___Review_RBT
 
                 if (value < current.Value)
                 {
-                    explanationSteps.Add($"{value} < {current.Value}: Đi sang cây con trái.");
+                    explanationSteps.Add($"{value} < {current.Value}:\nĐi sang cây con trái.");
                     current = current.Left;
                 }
                 else if (value > current.Value)
                 {
-                    explanationSteps.Add($"{value} > {current.Value}: Đi sang cây con phải.");
+                    explanationSteps.Add($"{value} > {current.Value}:\nĐi sang cây con phải.");
                     current = current.Right;
                 }
                 else
                 { 
-                    explanationSteps.Add($"{value} = {current.Value}: Có nút {value} trong cây");
+                    explanationSteps.Add($"{value} = {current.Value}:\nCó nút {value} trong cây");
                     break; // Tìm thấy nút
                 }
             }
@@ -403,7 +403,7 @@ namespace Project___Review_RBT
             }
 
             if (v != null) v.Parent = u.Parent;
-        }
+        } // Thay nút u bằng nút v
 
         private void FixDelete(RedBlackNode node, RedBlackNode parent)
         {

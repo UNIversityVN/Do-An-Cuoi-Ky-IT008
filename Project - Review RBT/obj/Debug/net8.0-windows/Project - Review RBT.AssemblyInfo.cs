@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Project - Review RBT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+975b3bbc75e6cf46d41421fe48207a453cc0e6d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef45c543d833ff6bc1ee57dcbea1aba0a1eb4cb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Project - Review RBT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Project - Review RBT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

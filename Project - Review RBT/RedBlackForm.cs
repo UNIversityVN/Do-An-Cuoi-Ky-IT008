@@ -193,7 +193,7 @@ namespace Project___Review_RBT
             }
             else
             {
-                Label_Explanation.Text = $"Giá trị {insertnode.Value} đã tồn tại trong cây , không thể chèn";
+                Label_Explanation.Text = $"Giá trị {insertnode.Value} đã tồn tại trong cây ! \nKhông thể chèn";
             }
             return false;
         }
@@ -245,10 +245,10 @@ namespace Project___Review_RBT
             int value = int.Parse(textBox_find.Text);
             if (value == currentNode.Value)
             {
-                Label_Explanation.Text = $"Kết quả : tìm thấy nút {value}";
+                Label_Explanation.Text = $"Kết quả :\n Tìm thấy nút {value}";
             }
             else
-                Label_Explanation.Text = $"Kết quả : không tìm thấy nút {value}";
+                Label_Explanation.Text = $"Kết quả :\n Không tìm thấy nút {value}";
             ToggleControls(true);
         }
         #endregion

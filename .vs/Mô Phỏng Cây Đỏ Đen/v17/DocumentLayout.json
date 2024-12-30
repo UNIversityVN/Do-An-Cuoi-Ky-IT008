@@ -3,16 +3,15 @@
   "WorkspaceRootPath": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1399D05-5543-4C69-A05D-2DBC42D1BCE0}|Form Main\\Form Main.csproj|d:\\\u0111\u1ED3 \u00E1n cu\u1ED1i k\u1EF3 it008\\do-an-cuoi-ky-it008\\m\u00F4 ph\u1ECFng c\u00E2y \u0111\u1ECF \u0111en\\form main\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1399D05-5543-4C69-A05D-2DBC42D1BCE0}|Form Main\\Form Main.csproj|solutionrelative:form main\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3373FAB9-2695-4C6F-BBDA-2147D74DAD1E}|GiaoDienHeThong\\GiaoDienHeThong.csproj|d:\\\u0111\u1ED3 \u00E1n cu\u1ED1i k\u1EF3 it008\\do-an-cuoi-ky-it008\\m\u00F4 ph\u1ECFng c\u00E2y \u0111\u1ECF \u0111en\\giaodienhethong\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3373FAB9-2695-4C6F-BBDA-2147D74DAD1E}|GiaoDienHeThong\\GiaoDienHeThong.csproj|solutionrelative:giaodienhethong\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1399D05-5543-4C69-A05D-2DBC42D1BCE0}|Form Main\\Form Main.csproj|d:\\\u0111\u1ED3 \u00E1n cu\u1ED1i k\u1EF3 it008\\do-an-cuoi-ky-it008\\m\u00F4 ph\u1ECFng c\u00E2y \u0111\u1ECF \u0111en\\form main\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1399D05-5543-4C69-A05D-2DBC42D1BCE0}|Form Main\\Form Main.csproj|solutionrelative:form main\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58075A0B-CCC1-4176-9C3A-9986912090AE}|C:\\Users\\ADMIN\\Documents\\T\u00E0i li\u1EC7u\\Documents\\\u0110\u1EA1i s\u1ED1 TT\\DoAnCuoiKi_2\\Project\\Project.csproj|c:\\users\\admin\\documents\\t\u00E0i li\u1EC7u\\documents\\\u0111\u1EA1i s\u1ED1 tt\\doancuoiki_2\\project\\m\u00F4 ph\u1ECFng(\u0111\u1ED3 th\u1ECB).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5729B2D7-AE46-469C-807D-97E06C3BEA2E}|Project - Review RBT\\Project - Review RBT.csproj|d:\\\u0111\u1ED3 \u00E1n cu\u1ED1i k\u1EF3 it008\\do-an-cuoi-ky-it008\\m\u00F4 ph\u1ECFng c\u00E2y \u0111\u1ECF \u0111en\\project - review rbt\\redblackform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5729B2D7-AE46-469C-807D-97E06C3BEA2E}|Project - Review RBT\\Project - Review RBT.csproj|solutionrelative:project - review rbt\\redblackform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3373FAB9-2695-4C6F-BBDA-2147D74DAD1E}|GiaoDienHeThong\\GiaoDienHeThong.csproj|d:\\\u0111\u1ED3 \u00E1n cu\u1ED1i k\u1EF3 it008\\do-an-cuoi-ky-it008\\m\u00F4 ph\u1ECFng c\u00E2y \u0111\u1ECF \u0111en\\giaodienhethong\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3373FAB9-2695-4C6F-BBDA-2147D74DAD1E}|GiaoDienHeThong\\GiaoDienHeThong.csproj|solutionrelative:giaodienhethong\\cautrucdulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,40 +36,50 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RedBlackForm.cs",
-              "DocumentMoniker": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\Project - Review RBT\\RedBlackForm.cs",
-              "RelativeDocumentMoniker": "Project - Review RBT\\RedBlackForm.cs",
-              "ToolTip": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\Project - Review RBT\\RedBlackForm.cs",
-              "RelativeToolTip": "Project - Review RBT\\RedBlackForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T07:11:20.623Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CauTrucDuLieu.cs",
-              "DocumentMoniker": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\Form Main\\CauTrucDuLieu.cs",
-              "RelativeDocumentMoniker": "Form Main\\CauTrucDuLieu.cs",
-              "ToolTip": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\Form Main\\CauTrucDuLieu.cs",
-              "RelativeToolTip": "Form Main\\CauTrucDuLieu.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wCcAAAA4AAAAAAAAAA==",
+              "Title": "M\u00D4 PH\u1ECENG(\u0110\u1ED2 TH\u1ECA).cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\T\u00E0i li\u1EC7u\\Documents\\\u0110\u1EA1i s\u1ED1 TT\\DoAnCuoiKi_2\\Project\\M\u00D4 PH\u1ECENG(\u0110\u1ED2 TH\u1ECA).cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\T\u00E0i li\u1EC7u\\Documents\\\u0110\u1EA1i s\u1ED1 TT\\DoAnCuoiKi_2\\Project\\M\u00D4 PH\u1ECENG(\u0110\u1ED2 TH\u1ECA).cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T07:01:19.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T12:46:45.612Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CauTrucDuLieu.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\Form Main\\CauTrucDuLieu.cs",
-              "RelativeDocumentMoniker": "Form Main\\CauTrucDuLieu.cs",
-              "ToolTip": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\Form Main\\CauTrucDuLieu.cs [Design]",
-              "RelativeToolTip": "Form Main\\CauTrucDuLieu.cs [Design]",
+              "Title": "CauTrucDuLieu.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\GiaoDienHeThong\\CauTrucDuLieu.cs",
+              "RelativeDocumentMoniker": "GiaoDienHeThong\\CauTrucDuLieu.cs",
+              "ToolTip": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\GiaoDienHeThong\\CauTrucDuLieu.cs",
+              "RelativeToolTip": "GiaoDienHeThong\\CauTrucDuLieu.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAmwFsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T04:42:02.301Z",
+              "WhenOpened": "2024-12-30T12:42:23.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CauTrucDuLieu.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\GiaoDienHeThong\\CauTrucDuLieu.cs",
+              "RelativeDocumentMoniker": "GiaoDienHeThong\\CauTrucDuLieu.cs",
+              "ToolTip": "D:\\\u0110\u1ED2 \u00C1N CU\u1ED0I K\u1EF2 IT008\\Do-An-Cuoi-Ky-IT008\\M\u00F4 Ph\u1ECFng C\u00E2y \u0110\u1ECF \u0110en\\GiaoDienHeThong\\CauTrucDuLieu.cs [Design]",
+              "RelativeToolTip": "GiaoDienHeThong\\CauTrucDuLieu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:42:06.989Z",
               "EditorCaption": " [Design]"
             }
           ]
